@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+li a {
+    display: block;
+    color: rgb(0, 255, 21);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #fa0606;
+  }
+  .origins{
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255);
+    border-style: dashed;
+    display:block;
+ }
+ .what{
+    border-radius: 5px;
+    border-color: rgb(0, 255, 200);
+    border-style:groove;
+    display:block;
+ }
+.come{
+    border-radius: 5px;
+    border-color: rgb(0, 162, 255);
+    border-style:ridge;
+    display:block;
+}
+.symbols{
+    border-radius: 5px;
+    border-color: rgb(68, 0, 255);
+    border-style:inset;
+    display:block;
+}
+.hope{
+    border-radius: 5px;
+    border-color: rgb(255, 0, 0);
+    border-style:outset;
+    display:block;
+}
+.groups{
+    border-radius: 5px;
+     border-color: rgb(1, 255, 200);
+     border-style: outset;
+     display:block;
+  }

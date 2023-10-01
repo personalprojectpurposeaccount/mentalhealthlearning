@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+li a {
+    display: block;
+    color: rgb(0, 255, 21);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #fa0606;
+  }
+  .bib{
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255);
+    border-style: dashed;
+    display:block;
+  }
+  .ref{
+    border-radius: 5px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    display:block;
+  }
+  #info{
+    border-radius: 5px;
+    border-color: rgb(0, 140, 255);
+    border-style: groove;
+    display:block;
+  }
+ #word{
+    border-radius: 5px;
+    border-color:chartreuse;
+    border-style:double;
+    display:block;
+  }
+  .clues{
+    border-radius: 5px;
+    border-color:rgb(255, 187, 0);
+    border-style:outset;
+    display:block;
+  }
+#symptoms{
+    border-radius: 5px;
+    border-color:rgb(0, 255, 242);
+    border-style:inset;
+    display:block;
+}
+#treat{
+    border-radius: 5px;
+    border-color:rgb(0, 255, 149);
+    border-style:dotted;
+    display:block;
+}

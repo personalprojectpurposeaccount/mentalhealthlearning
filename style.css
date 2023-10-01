@@ -1,0 +1,44 @@
+body{
+   background-color: black;
+}
+li a {
+   display: block;
+   color: rgb(0, 255, 21);
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ li a:hover:not(.active) {
+   background-color: #fa0606;
+ }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+ 
+ .defin{
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-style: dashed;
+    display:inline-block;
+ }
+ .cause{
+    border-radius: 5px;
+    border-color: red;
+    border-style: solid;
+    display:inline-block;
+    display:block;
+ }
+ .clues{
+    border-radius: 5px;
+    border-color: cyan;
+    border-style: groove;
+    display:inline-block;
+ }
+ .cure{
+    border-radius: 5px;
+    border-color: mediumaquamarine;
+    border-style:ridge;
+    display:inline-block;
+ }

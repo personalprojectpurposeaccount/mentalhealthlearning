@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+li a {
+    display: block;
+    color: rgb(0, 255, 21);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #fa0606;
+  }
+  .background{
+    border-radius: 5px;
+    border-color: rgb(255, 187, 0);
+    border-style:groove;
+    display:block;
+  }
+  .definition{
+    border-radius: 5px;
+    border-color: rgb(0, 195, 255);
+    border-style:double;
+    display:block;
+  }
+  .Causes{
+    border-radius: 5px;
+    border-color: rgb(7, 31, 255);
+    border-style:ridge;
+    display:block;
+  }
+  .signs{
+    border-radius: 5px;
+    border-color: rgb(255, 115, 0);
+    border-style:outset;
+    display:block;
+  }
+  .treat{
+    border-radius: 5px;
+    border-color: rgb(255, 115, 0);
+    border-style:inset;
+    display:block;
+  }
